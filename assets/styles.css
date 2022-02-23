@@ -1,0 +1,41 @@
+/* set default parameters and reset html styling */
+*{  
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+}
+
+header a{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: aqua;
+    font-size: 25px;
+    
+}
+h1 {
+    width: 80%;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+}
+.subtitle {
+    background-color: red;
+    text-align: right;
+    padding: 20px;
+    font-size: 25px;
+}
+.aboutme {
+    display: flex;
+    background-color: aqua;
+}
+#abouttag {
+    width: 20%;
+}
