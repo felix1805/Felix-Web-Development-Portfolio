@@ -53,7 +53,7 @@ nav a:hover{
     
 }
 .element1 {
-  height: 350px;
+  height: 355px;
   background-image: url(./images/nurburgring.jpg);
   background-size: cover; 
   background-position:  0px -402px; /* positioned image correctly to show sweeping turn
