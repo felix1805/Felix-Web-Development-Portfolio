@@ -21,13 +21,13 @@ header a{
 }
 h1 {
     width: 20%;
-    background-color: rgb(255, 123, 0);
+    background-color: turquoise;
     padding-left: 35px;
-    border-radius: 15px 15px;
-    border: 5px solid blue;
-    color:rgb(6, 6, 7);
+    color:darkmagenta;
     font-size: 39px;
-    
+}
+h1:hover {
+    transform:scale(1.03) 
 }
 nav {
     display: flex;
@@ -105,7 +105,7 @@ main {
     object-fit: cover;
     width: 100%;
   }
-  #Projects {
+  .Work { 
     background-color: rgb(255, 123, 0);
     height: 75px;
     color: rgb(0, 119, 255);
@@ -113,17 +113,34 @@ main {
     margin-bottom: 10px;
     border-radius: 15px 15px;
     border: 5px solid blue;
+}
     
-  }
   h3 {
-      font-size: 300%;
+      font-size: 200%;
       margin-top: 25px;
-      color: rgb(8, 8, 8);
+      color: rgb(0, 119, 255);
+      background-color: rgb(255, 123, 0);
+      border-radius: 15px 15px;
+      border: 5px solid blue;
+  }
+  h4 {
+    font-size: 200%;
+    margin-top: -7px;
+    color: darkmagenta;
+    background-color: turquoise;
+    border-radius: 15px 15px;
+    border: 5px solid darkgray; 
+    text-align: center;
+  }
+  h4:hover {
+      transform: scale(1.1);
+      transition: 250ms;
   }
   #transf img {
-    opacity: 50%;
+    opacity: 35%;
   }
   #transf:hover img {
     opacity:100%;
-    transform: scale(1.1);  
+    transform: scale(1.2);
+    transform: rotate(0.01turn);  
   }
