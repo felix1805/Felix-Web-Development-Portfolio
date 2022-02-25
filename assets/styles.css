@@ -4,13 +4,14 @@
     padding: 3px;
     box-sizing: border-box;
 }
+/* set font and flex behavior for body of page */
 body {
     display: flex;
     flex-direction: column;
     background-color: gray;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+/* specified flex behavior of header */
 header a{
     display: flex;
     justify-content: space-between;
@@ -26,6 +27,7 @@ h1 {
     color:darkmagenta;
     font-size: 39px;
 }
+/* added a transform behavior to slightly scale up header when hovered over */
 h1:hover {
     transform:scale(1.03) 
 }
@@ -36,6 +38,7 @@ nav {
     align-items: center;
     padding-right: 5px;
 }
+/* added hover state for nav menu */
 nav a:hover{ 
     color:blue;
     font-weight: bold;
@@ -50,11 +53,12 @@ nav a:hover{
     padding-left: 0px;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-right: 47px;
+    padding-right: 40px;
     background-color: lightblue;
-    opacity: 75%;
+    opacity: 65%;
     border-radius: 15px 15px;
     text-align: center;
+    font-weight: bold;
     
 }
 .element1 {
@@ -84,6 +88,7 @@ nav a:hover{
     color: rgb(0, 119, 255);
     border: 5px solid blue;
 }
+/* adjusted with of about heading to fit page correctly. */
 #abouttag {
     width: 20%;
     font-size: 55px;
@@ -136,6 +141,7 @@ main {
       transform: scale(1.1);
       transition: 250ms;
   }
+  /* specified behaviour of images for completed work to add opacity and tranformation values. */
   #transf img {
     opacity: 35%;
   }
@@ -144,3 +150,17 @@ main {
     transform: scale(1.2);
     transform: rotate(0.01turn);  
   }
+  footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        padding-right: 5px;
+        font-size: 25px;
+    }
+    footer a:hover{ 
+        color:blue;
+        font-weight: bold;
+        text-shadow: 2px 0px 5px;
+    }
+  
