@@ -20,9 +20,9 @@
 ### An example of the page layout along with an html code snippet can be seen below.
 
 
-[Website](/assets/images/portfolioscreenshot.JPG "Website screenshot")
+![Website](/assets/images/portfolioscreenshot.JPG "Website screenshot")
 
-[Code Example](/assets/images/codescreenshot.JPG "Code Snippet")
+![Code Example](/assets/images/codescreenshot.JPG "Code Snippet")
 
 <a name="usage"></a>
 ## 4. Usage Information
