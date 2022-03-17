@@ -13,12 +13,12 @@
     <header>
         <div class="header">
             <h1>Felix Petzsche</h1>
-            <nav>
+            <nav id="btn">
                 <!-- Created header and hash tags to guide page -->
-                <a href="#AboutMe">About Me</a>
-                <a href="#Work">Work</a>
-                <a href="#Contact Me">Contact Me</a>
-                <a href="https://www.linkedin.com/in/felix-petzsche-334a8b66/">Resume</a>
+                <a href="#AboutMe" id="aboutmestyle">About Me</a>
+                <a href="#Work" id="workstyle">Work</a>
+                <a href="#Contact Me" id="contactstyle">Contact Me</a>
+                <a href="https://www.linkedin.com/in/felix-petzsche-334a8b66/" id="resumestyle">Resume</a>
             </nav>
         </div>
         <!-- created a profile picture section along with a quote -->
@@ -45,9 +45,18 @@
                 </p>
             </div>
             <a name="Work"></a>
-            <h3 id="Work">Work:</h3>
-           <!-- created a card type layout for easy overview of page along with possibility for conveniently adding future projects as they are completed -->
-           <main>
+            <h3 id="Work">Completed Work Samples:</h3>
+            <!-- created a card type layout for easy overview of page along with possibility for conveniently adding future projects as they are completed -->
+            <main>
+                <div class="card feature">
+                    <header>
+                        <h4>Project 1: National Park Weather</h4>
+                    </header>
+                    <div class="featureimage">
+                        <a href="https://felix1805.github.io/State-Park-Weather/" alt="National Park Weather"><img
+                                src="assets/images/yosemite.jpg" width=100%></a>
+                    </div>
+                </div>
                 <div class="card">
                     <header>
                         <h4>Code Refactor</h4>
@@ -55,7 +64,16 @@
                     <!-- setting scale and source information for individual cards. -->
                     <div class="images">
                         <a href="https://felix1805.github.io/felix-seo-refactor/" alt="Refactor" id="transf"><img
-                            src="assets/images/seorefactor.JPG" width=350px></a>
+                                src="assets/images/seorefactor.JPG" width=350px></a>
+                    </div>
+                </div>
+                <div class="card">
+                    <header>
+                        <h4>Day Planner</h4>
+                    </header>
+                    <div class="images">
+                        <a href="https://felix1805.github.io/Workday-Calendar/" alt="Day Planner" id="transf"><img
+                                src="assets/images/Planner.JPG" width=350px></a>
                     </div>
                 </div>
                 <div class="card">
@@ -63,30 +81,28 @@
                         <h4>Mini Project</h4>
                     </header>
                     <div class="images">
-                        <a href="https://felix1805.github.io/mini-project-1/" alt="Mini Project" id="transf"
-                            ><img
-                                src="assets/images/Miniproject.JPG"
-                                width=350px></a>
+                        <a href="https://felix1805.github.io/mini-project-1/" alt="Mini Project" id="transf"><img
+                                src="assets/images/Miniproject.JPG" width=350px></a>
                     </div>
                 </div>
                 <div class="card">
                     <header>
-                        <h4>Soon to Come!</h4>
+                        <h4>Password Generator</h4>
                     </header>
                     <div class="images">
-                        <a href="https://github.com/felix1805" alt="Coming Soon!" id="transf"
-                        ><img src="assets/images/soontocome.jpg" width=350px></a>
-                        </div>
+                        <a href="https://felix1805.github.io/password-generator/" alt="Password Generator" id="transf"><img
+                                src="assets/images/password_generator.JPG" width=350px></a>
                     </div>
                 </div>
-            </section>
+        </div>
+    </section>
     </main>
     <!-- completed main section, moving on to footer for contact information. -->
     <a name="Contact Me"></a>
     <footer>
-        <a href="mailto:felix1805@gmail.com">felix1805@gmail.com</a>
-        <a href="https://github.com/felix1805">GitHub</a>
-        <a href="https://voice.google.com/">336 252 8901</a>
+        <a href="mailto:felix1805@gmail.com" id="mailstyle">felix1805@gmail.com</a>
+        <a href="https://github.com/felix1805" id="githubstyle">GitHub</a>
+        <a href="https://voice.google.com/" id="phonestyle">336 252 8901</a>
     </footer>
 </body>
 
