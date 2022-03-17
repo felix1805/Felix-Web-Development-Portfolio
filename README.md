@@ -11,7 +11,7 @@
 <a name="url"></a>
 ## 2. URL
 
-### The portfolio is accessible by visiting:  https://felix1805.github.io/homework2/
+### The portfolio is accessible by visiting:  https://felix1805.github.io/Felix-Web-Development-Portfolio/
 
 <a name="workflow"></a>
 ## 3. Workflow
