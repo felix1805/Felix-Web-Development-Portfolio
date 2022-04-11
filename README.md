@@ -16,7 +16,7 @@
 <a name="workflow"></a>
 ## 3. Workflow
 
-### This portfolio was created using Visual Studio Code and reviewed using the Chrome browser. All changes along with the final portfolio where posted through GitHub.
+### This portfolio was created using VS Code and reviewed using the Chrome browser. All changes along with the final portfolio where posted through GitHub.
 ### An example of the page layout along with an html code snippet can be seen below.
 
 
@@ -27,4 +27,12 @@
 <a name="usage"></a>
 ## 4. Usage Information
 
-### This portfolio was created to illustrate and highlight completed work and projects. It should be viewed by potential employers along with other contacts in understanding the scope of Felix's web development scope and understanding. 
+### This portfolio was created to illustrate and highlight completed work and projects. It should be viewed by potential employers along with other contacts in understanding the scope of Felix's web development career. 
+
+## Contact
+
+[Email Felix Petzsche](mailto:felix1805@gmail.com)
+
+## Lincense
+
+[License File-MIT](/assets/MIT-LICENSE.html)
